@@ -1,0 +1,38 @@
+﻿@media screen and (min-width: 992px) {
+    #dvSlideCa .owl-item img {
+        border-radius:8px;
+        display: block;
+        width: 100%;
+        height: 340px;
+        object-fit: cover;
+    }
+}
+#bg-main{
+    margin-bottom: 0px;
+}
+.product-short-description {
+    margin-bottom: 15px;
+    margin-top: -14px;
+    border: 1px solid var(--bgnavnew);
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+span.thong-tin-ca {
+    color: var(--bgnavnew);
+    font-weight: 500;
+    font-size: 18px;
+    background: white;
+    padding: 0 9px;
+    margin-left: 10px;
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    .owl-carousel .probox__pricebox, #owl_homeproflashsale .probox__pricebox {
+        min-height: 40px;
+    }
+}
+@media (max-width: 767px) {
+            .fancybox__container{
+            bottom: 50px;
+            }
+        }

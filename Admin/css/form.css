@@ -1,0 +1,219 @@
+.s1e29l0a {
+    border-bottom: 1px solid #9f9e9e;
+    padding: 10px 0;
+    position: relative;
+}
+.s1e29l0a .shopCoverBox.vehicles {
+    background-image: url(/img/noimage-br.png);
+}
+.s1e29l0a .shopCoverBox {
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+    height: 350px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+.s1e29l0a .shopCoverBox img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    object-fit: fill;
+    display: block;
+}
+.s1e29l0a .shopCoverBox .coverUpload {
+    background: rgba(0, 0, 0, .5);
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+}
+.s1e29l0a .shopCoverBox .editCoverIcon {
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 30px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    margin: auto;
+    position: absolute;
+    cursor: pointer;
+    background-image: url(/Admin/img/camera-upload.svg);
+}
+.s1psej1j {
+    margin-top: 12px;
+}
+.shopLabel, .shopLabelFake {
+    float: left;
+    width: 33.33333%;
+    text-align: right;
+    padding: 0 12px;
+    font-weight: 700;
+    height: 40px;
+    line-height: 40px;
+}
+.shopLabel span, .shopLabelFake span {
+    color: #e30127;
+    font-weight: 700;
+    position: relative;
+    top: 2px;
+    left: 4px;
+    font-size: 16px;
+}
+.shopInput, .shopInputWithText {
+    float: left;
+    width: 66.66667%;
+    position: relative;
+    text-align: left;
+}
+.shopInput .shopHelperText.info, .shopInputWithText .shopHelperText.info {
+    font-style: italic;
+    opacity: .5;
+}
+.shopInput .shopHelperText, .shopInputWithText .shopHelperText {
+    margin-top: 8px;
+    font-size: 13px;
+}
+.shopInput .shopHelperText b, .shopInputWithText .shopHelperText b {
+    text-decoration: underline;
+}
+.ip-login {
+    box-sizing: border-box;
+    background-image: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 100%;
+    border-radius: 4px;
+    padding: 5px 5px 5px 10px;
+}
+.clearfix {
+    clear: both;
+}
+.s1gkfplr {
+    margin-top: 12px;
+}
+.s1gkfplr .shopFrontUrl {
+    float: left;
+    line-height: 40px;
+    border-radius: 4px 0 0 4px;
+    background-color: #eee;
+    border: 1px solid #ebebeb;
+    border-right: none;
+    padding: 0 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 40%;
+    font-size: 14px;
+    height: 40px;
+}
+.ip-duongdan {
+    box-sizing: border-box;
+    background-image: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    height: 40px;
+    width: 60%;
+    border-radius: 0px 4px 4px 0px;
+    padding: 5px 5px 5px 5px;
+}
+.s60qtjf {
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.bd-iper {
+    border: 2px solid #e64d4d !important;
+}
+.iconStatuser {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    z-index: 1;
+    top: 7px;
+    right: 12px;
+    background-image: url(/Admin/img/invalid-form.svg);
+    background-size: contain;
+}
+.shopInput .shopHelperText.error, .shopInputWithText .shopHelperText.error {
+    color: #d0021b;
+    word-wrap: break-word;
+    position: relative;
+    padding-left: 20px;
+}
+.shopInput .shopHelperText.error:before, .shopInputWithText .shopHelperText.error:before {
+    background-image: url(/Admin/img/error-helper.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    content: "";
+    margin: auto;
+}
+@media only screen and (min-width: 992px) {
+    .ip-login {
+        height: 40px;
+    }
+}
+@media (max-width: 992px) {
+    .s1e29l0a .shopCoverBox {
+        height: 180px;
+    }
+    .s1e29l0a .shopCoverBox .editCoverIcon {
+        width: 30px;
+        height: 20px;
+    }
+    .s1psej1j {
+        margin-top: 4px;
+        padding-bottom: 4px;
+    }
+    .shopLabel, .shopLabelFake {
+        float: none;
+        width: 100%;
+        text-align: left;
+        padding: 0;
+        height: 30px;
+        line-height: 30px;
+        font-size: 13px;
+    }
+    .shopInput, .shopInputWithText {
+        float: none;
+        width: 100%;
+    }
+    .shopInput input, .shopInputWithText input {
+        font-size: 13px;
+        height: 35px;
+    }
+    .shopInput .shopHelperText, .shopInputWithText .shopHelperText {
+        font-size: 12px;
+    }
+    .s1gkfplr .shopFrontUrl {
+        font-size: 13px;
+        height: 35px;
+        width: 100%;
+        line-height: 35px;
+        border-right: 1px solid #ebebeb;
+        border-radius: 4px 4px 0 0;
+        border-bottom: none;
+    }
+    .ip-duongdan {
+        width: 100%;
+        border-radius: 0 0 4px 4px;
+        padding: 5px 5px 5px 10px;
+    }
+}

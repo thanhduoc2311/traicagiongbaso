@@ -1,0 +1,7 @@
+﻿.probox__pricebox {
+    min-height: 40px;
+}
+.probox__img img {
+    height: 170px;
+    object-fit: cover;
+}

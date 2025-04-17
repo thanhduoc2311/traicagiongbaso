@@ -1,0 +1,34 @@
+RewriteEngine On
+RewriteBase /
+
+# Rule để xử lý các request đến /ca-giong/
+RewriteRule ^ca-giong/([^/]*)$ cagiong.php?name=$1 [L]
+
+# Rule để xử lý các request đến /ca-kieng/
+RewriteRule ^ca-kieng/([^/]*)$ cakieng.php?name=$1 [L]
+
+# Rule để xử lý các request đến /ca-bot/
+RewriteRule ^ca-bot/([^/]*)$ cabot.php?name=$1 [L]
+
+# Rule để xử lý các request đến /tin-tuc/
+RewriteRule ^tin-tuc/([^/]*)$ tintuc.php?name=$1 [L]
+
+# Rule để xử lý các request đến /hinh-anh/
+RewriteRule ^hinh-anh/([^/]*)$ hinhanh.php [L]
+
+# Rule để xử lý các request đến /lien-he/
+RewriteRule ^lien-he/([^/]*)$ lienhe.php [L]
+
+# Rule để xử lý các request đến /gioi-thieu/
+RewriteRule ^gioi-thieu/([^/]*)$ gioithieu.php [L]
+
+# Rule để xử lý các request đến /tim-kiem/
+RewriteRule ^tim-kiem/([^/]*)$ timkiem.php [L]
+
+# Ngoại lệ cho các tệp ảnh
+RewriteRule \.(jpg|jpeg|png|gif)$ - [L,NC]
+
+# Nếu không tìm thấy file hoặc thư mục thì sẽ chuyển tiếp request đến index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]

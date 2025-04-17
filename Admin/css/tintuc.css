@@ -1,0 +1,411 @@
+.img-qlca
+{
+    width: 150px;
+    height: 120px;
+    border-radius: 8px;
+}
+.bdb-1{
+	border-bottom: 1px solid #9f9e9e;
+}
+.s1e29l0a {
+    border-bottom: 1px solid #9f9e9e;
+    padding: 10px 0;
+    position: relative;
+}
+.s1e29l0a .shopCoverBox.vehicles {
+    background-image: url(/Admin/img/noimage-br.png);
+}
+.s1e29l0a .shopCoverBox {
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+    height: 350px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+.s1e29l0a .shopCoverBox img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    /*-o-object-fit: cover;
+    object-fit: cover;*/
+    display: block;
+}
+.s1e29l0a .shopCoverBox .coverUpload {
+    background: rgba(0, 0, 0, .5);
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+}
+.s1e29l0a .shopCoverBox .editCoverIcon {
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 30px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    margin: auto;
+    position: absolute;
+    cursor: pointer;
+    background-image: url(/Admin/img/camera-upload.svg);
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.s1psej1j {
+    margin-top: 12px;
+}
+.shopLabel, .shopLabelFake {
+    float: left;
+    width: 22%;
+    text-align: right;
+    padding: 0 12px;
+    font-weight: 700;
+    height: 40px;
+    line-height: 40px;
+}
+.shopLabel span, .shopLabelFake span {
+    color: #e30127;
+    font-weight: 700;
+    position: relative;
+    top: 2px;
+    left: 4px;
+    font-size: 16px;
+}
+.shopInput, .shopInputWithText {
+    float: left;
+    width: 78%;
+    position: relative;
+    text-align: left;
+}
+.ip-login {
+    box-sizing: border-box;
+    background-image: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 100%;
+    border-radius: 4px;
+    padding: 5px 5px 5px 10px;
+}
+.shopInput .shopHelperText.info, .shopInputWithText .shopHelperText.info {
+    font-style: italic;
+    opacity: .5;
+}
+.shopInput .shopHelperText, .shopInputWithText .shopHelperText {
+    margin-top: 8px;
+    font-size: 13px;
+}
+.shopInput .shopHelperText b, .shopInputWithText .shopHelperText b {
+    text-decoration: underline;
+}
+.clearfix {
+    clear: both;
+}
+.clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .row:after, .row:before {
+    content: " ";
+    display: table;
+}
+.s1gkfplr {
+    margin-top: 12px;
+}
+.popover.bottom {
+    margin-top: 10px;
+}
+.fade {
+    transition: opacity .15s linear;
+}
+.popover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1060;
+    display: none;
+    max-width: 276px;
+    padding: 1px;
+    font-family: Segoe UI, Segoe UI, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-break: auto;
+    line-height: 1.42857;
+    text-align: left;
+    text-align: start;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    white-space: normal;
+    word-break: normal;
+    word-spacing: normal;
+    word-wrap: normal;
+    font-size: 14px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+.popover.bottom > .arrow {
+    left: 50%;
+    margin-left: -11px;
+    border-top-width: 0;
+    border-bottom-color: #999;
+    border-bottom-color: rgba(0, 0, 0, .25);
+    top: -11px;
+}
+.popover > .arrow, .popover > .arrow:after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+.popover > .arrow {
+    border-width: 11px;
+}
+.popover-title {
+    margin: 0;
+    padding: 8px 14px;
+    font-size: 14px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ebebeb;
+    border-radius: 5px 5px 0 0;
+}
+.btn-close {
+    --bs-btn-close-color: #000;
+    --bs-btn-close-bg: url(/Images/exit.svg);
+    --bs-btn-close-opacity: 0.5;
+    --bs-btn-close-hover-opacity: 0.75;
+    --bs-btn-close-focus-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    --bs-btn-close-focus-opacity: 1;
+    --bs-btn-close-disabled-opacity: 0.25;
+    --bs-btn-close-white-filter: invert(1) grayscale(100%) brightness(200%);
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: .25em .25em;
+    color: #000;
+    background: transparent var(--bs-btn-close-bg) center / 1em auto no-repeat;
+    border: 0;
+    border-radius: .375rem;
+    opacity: 1;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.popover-content {
+    padding: 9px 14px;
+}
+.s1gkfplr .shopFrontUrl {
+    float: left;
+    line-height: 40px;
+    border-radius: 4px 0 0 4px;
+    background-color: #eee;
+    border: 1px solid #ebebeb;
+    border-right: none;
+    padding: 0 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 40%;
+    font-size: 14px;
+    height: 40px;
+}
+.ip-duongdan {
+    box-sizing: border-box;
+    background-image: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    height: 40px;
+    width: 60%;
+    border-radius: 0px 4px 4px 0px;
+    padding: 5px 5px 5px 5px;
+}
+.iconStatuser {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    z-index: 1;
+    top: 7px;
+    right: 12px;
+    background-image: url(/Admin/img/invalid-form.svg);
+    background-size: contain;
+}
+.bd-iper {
+    border: 2px solid #e64d4d !important;
+}
+.shopInput .shopHelperText.errorr, .shopInputWithText .shopHelperText.errorr {
+    color: #d0021b;
+    word-wrap: break-word;
+    position: relative;
+    padding-left: 20px;
+    width: auto;
+}
+.shopInput .shopHelperText.errorr:before, .shopInputWithText .shopHelperText.errorr:before {
+    background-image: url(/Admin/img/error-helper.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    content: "";
+    margin: auto;
+}
+.errorAnhCa{
+	width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.lblTitleBanner{
+    width: 100%;
+    font-size: 24px;
+    font-weight: 600;
+}
+@media only screen and (min-width: 992px) {
+    #txtUrlBanner1{
+        width: 80%!important;
+    }
+    #txtUrlBanner2{
+        width: 80%!important;
+    }
+    #txtUrlBanner3{
+        width: 80%!important;
+    }
+    .ip-login {
+        height: 40px;
+    }    
+}
+@media (max-width: 991px) {
+    .s1e29l0a .shopCoverBox {
+        height: 180px;
+    }
+    .s1e29l0a .shopCoverBox .editCoverIcon {
+        width: 30px;
+        height: 20px;
+    }
+    .s1e29l0a .shopAvatarBox {
+        width: 75px;
+        height: 75px;
+        margin-top: -34px;
+    }
+    .s1psej1j {
+        margin-top: 4px;
+        padding-bottom: 4px;
+    }
+    .shopLabel, .shopLabelFake {
+        float: none;
+        width: 100%;
+        text-align: left;
+        padding: 0;
+        height: 30px;
+        line-height: 30px;
+        font-size: 13px;
+    }
+    .shopInput, .shopInputWithText {
+        float: none;
+        width: 100%;
+    }
+    .shopInput input, .shopInputWithText input {
+        font-size: 13px;
+        height: 35px;
+    }
+    .shopInput .shopHelperText, .shopInputWithText .shopHelperText {
+        font-size: 12px;
+    }
+    .s1gkfplr .shopFrontUrl {
+        font-size: 13px;
+        height: 35px;
+        width: 100%;
+        line-height: 35px;
+        border-right: 1px solid #ebebeb;
+        border-radius: 4px 4px 0 0;
+        border-bottom: none;
+    }
+    .ip-duongdan {
+        width: 100%;
+        border-radius: 0 0 4px 4px;
+        padding: 5px 5px 5px 10px;
+    }
+    .shopInput .shopHelperText, .shopInputWithText .shopHelperText {
+        font-size: 12px;
+    }
+    .s1psej1j {
+        margin-top: 4px;
+        padding-bottom: 4px;
+    }
+}
+.ck-editor__editable {
+    height: 300px;
+    border-bottom-left-radius: 4px!important;
+	border-bottom-right-radius: 4px!important;
+}
+.ck-rounded-corners .ck.ck-editor__top .ck-sticky-panel .ck-toolbar, .ck.ck-editor__top .ck-sticky-panel .ck-toolbar.ck-rounded-corners{
+	border-top-left-radius: 4px!important;
+	border-top-right-radius: 4px!important;
+}
+.errorr:before {
+    background-image: url(/Admin/img/error-helper.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    content: "";
+    margin: auto;
+    font-size: 12px !important;
+}
+.bd-iper{
+	border: 2px solid #e64d4d !important;
+	border-radius: 4px;
+}
+.ck-editor__editable {
+    height: 300px; 
+    border-radius: 6px;
+}
+.center-error {
+    font-size: 15px;
+    color: #d0021b;
+    word-wrap: break-word;
+    position: relative;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center-error:before {
+    background-image: url(/Admin/img/error-helper.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+    content: "";
+    margin-right: 5px;
+    display: inline-block;
+}
+#deleteModal img {
+    width: 180px;
+    height: 160px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
